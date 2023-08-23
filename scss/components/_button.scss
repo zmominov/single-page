@@ -1,0 +1,57 @@
+.black-btn {
+  border-radius: 28px;
+  background: $black-color;
+  padding: 14px 45px;
+  color: $light-cream-color;
+  font-family: $font-family;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  border: none;
+}
+.black-btn:hover {
+  background: $galactic-blue-color;
+  transition: 0.3s;
+  transform: translateY(-10px);
+  cursor: grab;
+}
+.black-btn:active {
+  opacity: 0.7;
+  cursor: grabbing;
+}
+.red-btn {
+  border-radius: 28px;
+  background: $light-red-color;
+  color: $light-cream-color;
+  font-family: $font-family;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  width: 228px;
+  height: 56px;
+  padding: 14px 45px;
+  border: none;
+}
+.red-btn:hover {
+  background-color: $summer-yellow-color;
+  transition: 0.3s;
+  transform: translateY(-10px);
+  cursor: grab;
+}
+.red-btn:active {
+  opacity: 0.7;
+  cursor: grabbing;
+}
+.link {
+  text-align: center;
+  margin-bottom: 88px;
+}
+.link:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+.link:active {
+  opacity: 0.5;
+}
